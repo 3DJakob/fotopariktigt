@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  width: 1360px;
+  height: 900px;
+  overflow: hidden;
+  border: 1px solid #fff;
+}
+
+.bg {
+  height: 100%;
+  width: 100%;
+  background-image: url(../img/fotopåriktigt.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+h1, h2, h3, p, a {
+  font-family: 'Lato', sans-serif;
+  font-weight: 100;
+  color: white;
+}
+
+h1 {
+  font-size: 100px;
+  letter-spacing: 7px;
+}
+
+h2 {
+  font-size: 60px;
+  position: absolute;
+  top: 510px;
+}
