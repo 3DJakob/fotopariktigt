@@ -34,7 +34,7 @@
   flex-grow: 1;
 }
 
-.home div.square {
+.home a.square {
   display: flex;
   width: 50%;
   align-items: center;
@@ -42,7 +42,7 @@
   overflow: hidden;
 }
 
-.home div.square div {
+.home .square div {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -53,11 +53,11 @@
   transition: 0.2s;
 }
 
-.home div.square div:hover {
+.home .square div:hover {
   transform: scale(1.05);
 }
 
-.home div.square h2 {
+.home .square h2 {
   background-color: #000;
   padding: 0 3px;
 }
